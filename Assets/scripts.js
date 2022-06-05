@@ -118,5 +118,5 @@ function changeButtonText2(value) {
          </ul>
          </div>`
     )
-    .join("");
+    .join(""); 
 }
