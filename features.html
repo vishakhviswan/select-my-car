@@ -1,12 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/style.css">
+
     <title>Document</title>
+
+
 </head>
+
 <body>
-    <h1>Haii</h1>
+    <section class="navbarSection">
+        <div class="navbar">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Select My Car</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="features.html">Features</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Enquiry</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </section>
+    <section class="bannerSec">
+        <div class="container">
+
+            <div class="panel panel-default">
+                <div class="panel-body">Panel Content</div>
+                <div class="panel-footer">Panel Footer</div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+
+            <div class="home menu">
+                <div class="buttonDiv">
+
+                    <div class="btn-group">
+                        <div class="btn-group">
+                            <button value="lkh" id="modalActionButton" type="button"
+                                class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                Select Model <span class="caret"></span></button>
+                            <ul id="modalActionButtonMenu" class="dropdown-menu" role="menu">
+                                <li><a href="#" id="Grand i10 NIOS" onclick="changeButtonText(this.innerText)">Grand i10
+                                        NIOS</a></li>
+                                <li><a href="#" id="The Grand New i20" onclick="changeButtonText(this.innerText)">The
+                                        Grand
+                                        New i20</a>
+                                </li>
+                                <li><a href="#" id="The
+                                        i20 N Line" onclick="changeButtonText(this.innerText)">The
+                                        i20 N Line</a>
+                                </li>
+                                <li><a href="#" id="Venue" onclick="changeButtonText(this.innerText)">Venue</a></li>
+                                <li><a href="#" id="Verna" onclick="changeButtonText(this.innerText)">Verna</a></li>
+                                <li><a href="#" id="Creta" onclick="changeButtonText(this.innerText)">Creta</a></li>
+                                <li><a href="#" id="Alkazar" onclick="changeButtonText(this.innerText)">Alkazar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttonDiv">
+                <div class="btn-group">
+                    <div class="btn-group">
+                        <button id="variantActionButton" type="button" class="btn btn-primary dropdown-toggle"
+                            data-toggle="dropdown">
+                            Select Variant <span class="caret"></span></button>
+                        <ul id="demo" class="dropdown-menu" role="menu">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttonDiv">
+                <div class="btn-group">
+                    <div class="btn-group">
+                        <button id="engineActionButton" type="button" class="btn btn-primary dropdown-toggle"
+                            data-toggle="dropdown">
+                            Select Engine & Trim plan <span class="caret"></span></button>
+                        <ul id="demo" class="dropdown-menu" role="menu">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="buttonDiv">
+                <div class="btn-group">
+                    <div class="btn-group">
+                        <button id="engineActionButton" type="button" class="btn btn-primary dropdown-toggle"
+                            data-toggle="dropdown" aria-expanded="true">
+                            Select Engine & Trim plan <span class="caret"></span></button>
+                        <ul id="mainContent" class="dropdown-menu" role="menu">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/scripts.js"></script>
+    <script src="assets/data.js"></script>
+
 </body>
+
 </html>
